@@ -1,0 +1,61 @@
+@media (max-width: 1399px) {
+  .ad h1 {
+    font-size: 34px;
+  }
+}
+@media (max-width: 1199px){
+  .ad h1 {
+    margin-bottom: 20px;
+  }
+  .price .row{
+    justify-content: space-evenly;
+  }
+}
+@media (max-width: 991px){
+  .banner {
+    margin-top: 0;
+  }
+}
+@media (max-width: 767px) {
+  .nav-link {
+    margin-left: 0;
+    padding: 0 0 5px !important;
+  }
+  .navbar-nav {
+    margin-top: 24px;
+  }
+  .nav-item {
+    display: flex;
+    padding-bottom: 10px;
+  }
+}
+@media (max-width: 574px){
+  .mobile-card{
+    margin-top: 24px;
+    flex: 0 0 auto;
+    width: 80%;
+  }
+  header .text{
+    text-align: center;
+  }
+  header .text p{
+    padding: 0 !important;
+  }
+  .buttons{
+    justify-content: center;
+  }
+  .ad h1{
+    text-align: center;
+  }
+  .float{
+    padding: 60px 5% 40px;
+  }
+}
+@media (max-width: 399px) {
+  .test .owl-carousel .owl-dots span{
+    margin: 0 10px;
+  }
+  .two {
+    margin: 20px 20px 0 20px;
+  }
+}

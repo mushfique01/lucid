@@ -241,10 +241,7 @@ p {
   width: 100%;
   background: #ededed;
 }
-.detail .text {
-  padding-top: 110px;
-  padding-bottom: 64px;
-}
+.detail .text {padding-top: 110px;padding-bottom: 64px;}
 .detail .top span {
   margin: 24px 0 24px;
 }

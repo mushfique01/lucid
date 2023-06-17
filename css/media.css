@@ -2,6 +2,9 @@
   .ad h1 {
     font-size: 34px;
   }
+  .detailTwo .text {
+    padding-top: 100px;
+  }
 }
 @media (max-width: 1199px){
   .ad h1 {
@@ -10,10 +13,25 @@
   .price .row{
     justify-content: space-evenly;
   }
+  .detailTwo .text {
+    padding-bottom: 64px;
+  }
+  .detailTwo .text {
+    padding-top: 76px;
+  }
 }
 @media (max-width: 991px){
   .banner {
     margin-top: 0;
+  }
+  .detail .text{
+    padding: 34px 12px 64px;
+  }
+  .detailTwo .text {
+    padding-bottom: 0;
+  }
+  .detailTwo .text {
+    padding-top: 64px;
   }
 }
 @media (max-width: 767px) {

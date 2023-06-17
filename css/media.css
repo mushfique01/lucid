@@ -35,6 +35,9 @@
     flex: 0 0 auto;
     width: 80%;
   }
+  .price .text {
+    margin-bottom: 46px;
+  }
   header .text{
     text-align: center;
   }

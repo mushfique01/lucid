@@ -21,7 +21,9 @@ header {
   background-size: cover;
   position: relative;
   color: #ffffff;
-  /* min-height: 100vh; */
+}
+.navbar-brand img {
+  max-width: 110%;
 }
 .navbar-brand {
   width: 8rem;
@@ -105,9 +107,6 @@ header {
   display: flex;
   align-items: center;
   flex-flow: row wrap;
-}
-.banner{
-  /* margin-top: 135px; */
 }
 .bannerContent {
   margin-top: 64px;
@@ -197,16 +196,18 @@ p {
 }
 .features {
   background-color: #ffffff;
-  padding: 64px 0px 76px;
+  padding: 64px 0px 0px;
   position: relative;
 }
 .features:hover .top span {
   background-size: 40% 3px;
   background-position: 10% 100%, 90% 100%;
 }
+.features .featureBox{
+  margin-bottom: 72px;
+}
 .features .box {
   text-align: center;
-  margin-bottom: 65px;
 }
 .features .box .icon {
   width: 100px;
@@ -276,7 +277,7 @@ p {
   background-color: #f2f2f2;
 }
 .detailTwo .text {
-  padding-top: 132px;
+  padding-top: 124px;
 }
 .detailTwo .top span {
   margin: 24px 0 24px;
@@ -291,7 +292,7 @@ p {
   background-position: center;
   background-size: cover;
   position: relative;
-  padding: 64px 0 210px;
+  padding: 64px 0;
 }
 .test h2 {
   text-align: center;
@@ -305,7 +306,7 @@ p {
   margin: 24px auto 0;
 }
 .test .text {
-  margin-bottom: 90px;
+  margin-bottom: 84px;
 }
 .test:hover .top span {
   background-size: 40% 3px;
@@ -323,10 +324,13 @@ p {
 .test .person {
   display: flex;
   align-items: center;
-  padding-bottom: 130px;
+  padding-bottom: 120px;
 }
 .test .title {
   margin-left: 24px;
+}
+.test .title h2{
+  text-align: start;
 }
 .test h4 {
   color: #ffffff;
@@ -344,7 +348,7 @@ p {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  bottom: -130px;
+  bottom: 0;
 }
 .test .owl-carousel .owl-dots span {
   background: transparent;
@@ -453,7 +457,7 @@ p {
 }
 .contact {
   background-color: #ededed;
-  padding: 64px 0 64px;
+  padding: 64px 0 0px;
 }
 .contact h2 {
   text-align: center;
@@ -480,11 +484,13 @@ p {
   color: #00adeb;
 }
 .contact .iconSet {
-  margin-bottom: 70px;
+  margin-bottom: 10px;
 }
 .float {
   background-color: #15141a;
   padding: 60px 70px 40px;
+  position: relative;
+  top: 64px;
 }
 .float form input {
   margin-bottom: 26px;
@@ -548,19 +554,19 @@ p {
 footer {
   background: #15141A;
   text-align: center;
-  padding: 40px 0;
+  padding: 50px 0 42px;
 }
 .social-icon ul {
   display: flex;
   justify-content: center;
-  margin-bottom: 15px;
+  margin-bottom: 26px;
 }
 .social-icon ul li {
   list-style: none;
   margin: 0 15px;
 }
 .social-icon ul li a {
-  color: #999999;
+  color: #444348;
   font-size: 20px;
   transition: .2s all ease-in-out;
 }
@@ -569,4 +575,6 @@ footer {
 }
 .copy p {
   text-transform: uppercase;
+  color: #444348;
+  font-size: 16px;
 }

@@ -1,3 +1,26 @@
+@media (min-width: 1199px){
+  .banner {
+    position: relative;
+    top: 100px;
+  }
+  .banner .text {
+    margin-top: 50px;
+  }
+  .bannerContent {
+    margin-top: -10px;
+  }
+}
+@media (min-width: 1399px){
+  .banner {
+    top: 124px;
+  }
+  .banner .text {
+    margin-top: 0;
+  }
+  .bannerContent {
+    margin-top: -90px;
+  }
+}
 @media (max-width: 1399px) {
   .ad h1 {
     font-size: 34px;

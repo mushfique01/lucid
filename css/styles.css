@@ -42,6 +42,9 @@ header {
   background-repeat: no-repeat;
   transition: 0.3s linear, background-size 0.3s 0.2s linear;
 }
+.nav-link:focus{
+  color: #ffffff;
+}
 .nav-link:hover {
   color: #ffffff;
   background-size: 40% 2px;
@@ -336,6 +339,9 @@ p {
 .test .top h2 {
   margin-bottom: 18px;
 }
+.test .mobile-carousel{
+  display: none;
+}
 .test .owl-carousel h2 {
   color: #ffffff;
   margin: 0;
@@ -357,7 +363,7 @@ p {
   transition: 0.3s all ease-in-out;
 }
 .test .owl-carousel .owl-dot.active span {
-  transform: scale(2);
+  transform: scale(1.5);
   transform-origin: center;
   background: #ffffff;
 }

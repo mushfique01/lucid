@@ -69,8 +69,17 @@
     display: flex;
     padding-bottom: 10px;
   }
+  .test .desktop-carousel{
+    display: none;
+  }
+  .test .mobile-carousel{
+    display: block;
+  }
 }
 @media (max-width: 574px){
+  .nav-item {
+    justify-content: center;
+  }
   .mobile-card{
     margin-top: 24px;
     flex: 0 0 auto;
